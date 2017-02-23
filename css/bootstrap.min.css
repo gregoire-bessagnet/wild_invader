@@ -9,3 +9,24 @@ background-color: #000;
 body {
     background-color: black;
 }
+
+table {
+  width: 90%;
+}
+td {
+  width: 7,5%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .green {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#39FF14;
+}
